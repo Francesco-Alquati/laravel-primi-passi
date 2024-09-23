@@ -16,7 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $message = 'Hello world!';
-    $sub_title = 'From Francesco Alquati';
+    $sub_title = 'Francesco Alquati';
 
     return view('home', compact('message','sub_title'));
-});
+})->name('homepage');
+
+Route::get('/about-us', function () {
+    return view('about_us');
+})->name('aboutus');
+
+Route::get('/contacts', function () {
+    return view('contacts');
+})->name('contacts');

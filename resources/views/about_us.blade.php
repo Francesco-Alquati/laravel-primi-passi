@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Hello world</title>
+    <title>About us</title>
 </head>
 <body>
     <header class="border-bottom border-dark">
@@ -24,8 +24,8 @@
     <div class="container-fluid mt-3">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="text-uppercase">{{ $message }}</h1>
-                <h2 class="mt-3">From <span class="text-danger">{{ $sub_title }}</span></h2>
+                <h1 class="text-uppercase">About us</h1>
+                <h2 class="mt-3">Ciao mi chiamo <span class="text-danger">Francesco Alquati</span></h2>
             </div>
         </div>
     </div>
